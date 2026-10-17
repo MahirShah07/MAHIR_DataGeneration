@@ -4,20 +4,11 @@
 
 **Official Data Pipeline & Frozen Intraday Dataset for the MAHIR Research Framework**
 
+[![View on Google Colab](https://img.shields.io/badge/Open%20in%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1rAaU0DY5d2ESvfDZLqOzNlidMyIgIDm8)
+
+
 [![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Exchange](https://img.shields.io/badge/Exchange-NSE%20India-FF6600?style=flat-square)](https://www.nseindia.com/)
-[![Resolution](https://img.shields.io/badge/Resolution-5--Minute%20OHLCV-00B4D8?style=flat-square)](#dataset-schema)
-[![Integrity](https://img.shields.io/badge/Integrity-SHA--256%20Verified-28A745?style=flat-square)](#cryptographic-integrity-verification)
-[![Stocks](https://img.shields.io/badge/Stocks-20%20NSE%20Equities-8B5CF6?style=flat-square)](#equity-universe)
-[![Sessions](https://img.shields.io/badge/Sessions-60%20Trading%20Days-F59E0B?style=flat-square)](#equity-universe)
-[![Total Bars](https://img.shields.io/badge/Total%20Bars-87%2C120-EC4899?style=flat-square)](#equity-universe)
-[![Download on Google Drive](https://img.shields.io/badge/Download-Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1rAaU0DY5d2ESvfDZLqOzNlidMyIgIDm8/view?usp=sharing)
-
-<br/>
-
-> **Paper:** *MAHIR: A Bounded-Impact Market-State Framework for Indian Equity Execution Simulation and Its Limits as a Short-Horizon Forecaster*
-> **Author:** Mahir Sujalkumar Shah
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
 
 </div>
 
@@ -371,25 +362,8 @@ Then **Run All Cells**. The notebook will:
 - **Source:** Intraday bars were retrieved via [`tvDatafeed`](https://github.com/rongardF/tvdatafeed) — an **unofficial, third-party TradingView client** — targeting the NSE cash equity segment.
 - **No price adjustment:** The dataset applies no corporate-action adjustments. Whether the upstream vendor adjusts for splits/dividends was not verified.
 - **No gap-filling:** Missing bars are left as-is; no interpolation was applied.
-- **Redistribution notice:** Third-party charting vendors and the National Stock Exchange of India (NSE) maintain terms of service regarding bulk data redistribution and commercial usage. **Review applicable vendor and exchange terms before making this repository public.** Keeping the repository private, or publishing only the code and derived summary tables, is the safer option where redistribution may be restricted.
-
----
-
-## Citation
-
-If you use the MAHIR framework, data pipeline, or dataset structure in your research, please cite:
-
-```bibtex
-@article{shah2026mahir,
-  title   = {MAHIR: A Bounded-Impact Market-State Framework for Indian Equity
-             Execution Simulation and Its Limits as a Short-Horizon Forecaster},
-  author  = {Shah, Mahir Sujalkumar},
-  year    = {2026},
-  note    = {Companion Data Generation Pipeline and Frozen NSE 5-Minute OHLCV Dataset.
-             Available at: https://github.com/mahirshah/MAHIR_DataGeneration}
-}
-```
-
+- **Redistribution notice:** Third-party charting vendors and the National Stock Exchange of India (NSE) maintain terms of service regarding bulk data redistribution and commercial usage.
+  
 ---
 
 <div align="center">Made with love for reproducible quantitative research on Indian equity markets.</div>
