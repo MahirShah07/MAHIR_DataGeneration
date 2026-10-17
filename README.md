@@ -7,8 +7,8 @@
 [![View on Google Colab](https://img.shields.io/badge/Open%20in%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1rAaU0DY5d2ESvfDZLqOzNlidMyIgIDm8)
 
 
-[![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
+[![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?style=curved-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?style=curved-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
 
 </div>
 
@@ -26,7 +26,6 @@
 - [Quick Start](#quick-start)
 - [Cryptographic Integrity Verification](#cryptographic-integrity-verification)
 - [Data Provenance & Terms of Use](#data-provenance--terms-of-use)
-- [Citation](#citation)
 
 ---
 
@@ -36,7 +35,10 @@ The complete frozen dataset (`OHLCVData/` — 20 CSVs + `manifest.json`) is avai
 
 | Resource | Link | Size |
 |:---|:---|:---|
-| **OHLCVData.zip** (all 20 stocks) | [Open on Google Drive](https://drive.google.com/file/d/1rAaU0DY5d2ESvfDZLqOzNlidMyIgIDm8/view?usp=sharing) | ~1.2 MB |
+| **OHLCVData.zip** (all 20 stocks) | [![Google Drive](https://img.shields.io/badge/Download-Google%20Drive-4285F4?style=curved-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1iXge_V2yHgj7xYc-HTf8idOw2o4lkPZV/view?usp=sharing) [![GitHub](https://img.shields.io/badge/Download-GitHub%20-8534F3?style=curved-square&logo=github&logoColor=white)](https://github.com/MahirShah07/MAHIR_DataGeneration/blob/main/OHLCVData.zip) | 1.14 MB |
+| **OHLCVData Folder** (all 20 stocks) | [![Google Drive](https://img.shields.io/badge/Download-Google%20Drive-4285F4?style=curved-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1gLLvr-o_kJCCIZ8rXTRoih6BtvaydNjX?usp=sharing) [![GitHub](https://img.shields.io/badge/Download-GitHub%20-8534F3?style=curved-square&logo=github&logoColor=white)](https://github.com/MahirShah07/MAHIR_DataGeneration/tree/main/OHLCVData) | 5.4 MB |
+| **Colab Notebook** | [![View on Google Colab](https://img.shields.io/badge/Open%20in%20Colab-F9AB00?style=curved-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1rAaU0DY5d2ESvfDZLqOzNlidMyIgIDm8) [![Google Drive](https://img.shields.io/badge/Download-Google%20Drive-4285F4?style=curved-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1rAaU0DY5d2ESvfDZLqOzNlidMyIgIDm8/view?usp=sharing) [![GitHub](https://img.shields.io/badge/Download-GitHub%20-8534F3?style=curved-square&logo=github&logoColor=white)](https://github.com/MahirShah07/MAHIR_DataGeneration/blob/main/MAHIR%20Data%20Generation.ipynb) | 40 KB |
+| **Project**  | [![Google Drive](https://img.shields.io/badge/Download-Google%20Drive-4285F4?style=curved-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1TdW84ZjOfqrt7wEdThUUUpZ1CS5qQIfD?usp=sharing) [![GitHub](https://img.shields.io/badge/Download-GitHub%20-8534F3?style=curved-square&logo=github&logoColor=white)](https://github.com/MahirShah07/MAHIR_DataGeneration) | 9.6 MB |
 
 After downloading, unzip it and place the resulting `OHLCVData/` folder at the root of the repository. All SHA-256 checksums in `manifest.json` will verify correctly against these files.
 
